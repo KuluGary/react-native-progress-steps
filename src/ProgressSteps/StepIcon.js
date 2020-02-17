@@ -157,8 +157,8 @@ class StepIcon extends Component {
           </Text>
         </View>
         <Text style={styles.labelText}>{this.props.label}</Text>
-        {!this.props.isFirstStep && <View style={styles.leftBar} />}
-        {!this.props.isLastStep && <View style={styles.rightBar} />}
+        {/* {!this.props.isFirstStep && <View style={styles.leftBar} />}
+        {!this.props.isLastStep && <View style={styles.rightBar} />} */}
       </View>
     );
   }
